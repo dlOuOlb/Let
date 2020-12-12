@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <Authors>Ranny Clover</Authors>
+    <Version>0.1.0.0</Version>
+    <Company></Company>
+    <PackageId>dlOuOlb.Let</PackageId>
+    <RootNamespace>dlOuOlb</RootNamespace>
+    <PackageTags>const, immutable, readonly</PackageTags>
+    <Description>This library imitates readonly local variables abusing some language features.
+</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <PackageIcon>AirCube.png</PackageIcon>
+    <PackageLicenseExpression>CC0-1.0</PackageLicenseExpression>
+    <AssemblyName>dlOuOlb.Let</AssemblyName>
+    <Copyright>Copyright (c) 2020 Ranny Clover</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageReleaseNotes>Ver. 0.1.0.0 [2020-12-12] : The initial release.</PackageReleaseNotes>
+    <RepositoryUrl>https://github.com/dlOuOlb/Let</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <NeutralLanguage />
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DocumentationFile>E:\Code\Projects\dlOuOlb\Let\dlOuOlb.Let.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\AirCube.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

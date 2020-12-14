@@ -4,23 +4,26 @@
     <TargetFramework>net5.0</TargetFramework>
     <Nullable>enable</Nullable>
     <Authors>Ranny Clover</Authors>
-    <Version>0.1.0.0</Version>
+    <Version>0.2.0.0</Version>
     <Company></Company>
     <PackageId>dlOuOlb.Let</PackageId>
     <RootNamespace>dlOuOlb</RootNamespace>
     <PackageTags>const, immutable, readonly</PackageTags>
     <Description>This library imitates readonly local variables abusing some language features.
 </Description>
-    <PackageProjectUrl></PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/dlOuOlb/Let</PackageProjectUrl>
     <PackageIcon>AirCube.png</PackageIcon>
     <PackageLicenseExpression>CC0-1.0</PackageLicenseExpression>
     <AssemblyName>dlOuOlb.Let</AssemblyName>
     <Copyright>Copyright (c) 2020 Ranny Clover</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageReleaseNotes>Ver. 0.1.0.0 [2020-12-12] : The initial release.</PackageReleaseNotes>
+    <PackageReleaseNotes>Ver. 0.1.0.0 [2020-12-12] : The initial release.
+Ver. 0.2.0.0 [2020-12-14] : A bug fix for IReadOnlySet SetEquals implementation.
+</PackageReleaseNotes>
     <RepositoryUrl>https://github.com/dlOuOlb/Let</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <NeutralLanguage />
+    <AssemblyVersion>0.2.0.0</AssemblyVersion>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">

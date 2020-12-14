@@ -67,3 +67,8 @@ Version 0.1.0.0
 
 - Date: 2020-12-12.
 - The initial release.
+
+Version 0.2.0.0
+
+- Date: 2020-12-14.
+- A bug fix for `IReadOnlySet` `SetEquals` implementation.
